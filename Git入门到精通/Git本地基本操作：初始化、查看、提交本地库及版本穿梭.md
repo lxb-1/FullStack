@@ -60,5 +60,9 @@ git add 文件名
 git commit -m "备注"
 ```
 
+这里执行`git commit -m "提交本地库"`，然后就显示出提交到本地库的操作记录；使用`git status`命令查看本地仓库状态为无文件需要提交。这样就形成了一个本地历史版本，我们就可以使用`git push`命令将项目提交到远程仓库了，本文先不展开介绍，后续会专门写一篇文章进行介绍。
+
+<div align=center><img src="../assets/Git提交到本地库操作.png"></div>
 
 
+# 四、
