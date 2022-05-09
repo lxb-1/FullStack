@@ -6,7 +6,7 @@
 
 ## 一、xfce4的安装
 ```
-sudo apt-get install xfce4
+sudo apt-get install xfce4v
 ```
 
 ## 二、设置xfce4为默认终端
