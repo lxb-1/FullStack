@@ -20,7 +20,6 @@ Jupyter Notebook有两种命令方式，（1）编辑模式（绿色）；（2�
 | `C` | 复制该`cell` |
 | `V` | 在当下的`cell`粘贴复制的`cell` |
 | `Z` | 撤销操作 |
-
 | `Shift + M` | 合并单元格 |
 | `Shift + V` | 在该`cell`上方粘贴复制的`cell` |
 | `Shift + L` | 显示/隐藏所有的`cell`的代码行号 |
