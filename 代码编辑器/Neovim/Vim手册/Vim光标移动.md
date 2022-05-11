@@ -18,6 +18,7 @@
 | `B` | 光标移动到上一个单词开头，但是忽略一些标点 |
 
 
-
+So, this is some silly sample text to demo navigation. In Vim.
+A new line.
 
 
