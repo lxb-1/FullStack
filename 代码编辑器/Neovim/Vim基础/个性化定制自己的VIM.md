@@ -34,22 +34,22 @@ nnoremap <space> viw
 | `vmap` | visual模式下的映射 |
 | `imap` | insert模式下的映射 |
 
+这里写的有点乱，后续慢慢整理；下面主要介绍一下，如何在`insert`模式下实现映射操作。
+
+
 
 - 设置leader键为`,`的命令为：`let mapleader=','`；
 - 在插入模式保存快捷键设置为`,+w`的命令为：`inoremap <leader>w <Esc>:w<cr>`；
 
 
 
-
-
 **注意：** Vim中的映射概念挺复杂，但是功能非常强大，需要平时的积累。
 
 ## VIM插件
-现代化的Vim可以通过插件管理安装插件。
+现代化的Vim可以通过插件管理安装插件。Vim具有自己的脚本语言`Vimscript`，对于高级用户可以实现强大的vim插件。Vim插件就是使用`vimscript`或其他语言编写的vim功能扩展。
 
 - 通过插件我们就可以极大的扩充Vim的功能；
 - 想要使用Vim插件，首先需要具备一定的Vim配置知识。
 
-## VIM脚本
+在github上可以找到很多常见的vim插件管理工具，比如`vim-plug`、`Vundle`、`Pathogen`、`Dein.Vim`等。综合性能、易用性、文档等几个方面，本文使用非常流行的`vim-plug`插件为例进行讲解。
 
-Vim具有自己的脚本语言`Vimscript`，对于高级用户可以实现清大的vim插件。
