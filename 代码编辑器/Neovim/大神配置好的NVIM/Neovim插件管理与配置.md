@@ -16,5 +16,4 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 由上面的命令可以看出，
 克隆的`Packer.vim`插件的目录在`~/.local/share/nvim/site/pack/packer/start/packer.nvim`目录中，以后我们使用的`packer.nvim`插件管理工具安装的插件都安装在该目录下。
 
-<div align=center><img src="../../../../assets/Noevim/packer.vim插件安装目录.png"></div>
-
+<div align=center><img src="../../../assets/Noevim/packer.vim插件安装目录.png"></div>
